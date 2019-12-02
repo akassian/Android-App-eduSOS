@@ -22,7 +22,8 @@ public class QuestionSearchResultActivity extends AppCompatActivity {
         Intent intent = getIntent();
 
         ArrayList<Question> matchedQuestions = intent.getParcelableArrayListExtra("matchedQuestions");
-        adapter = new QuestionSearchAdapterClass(matchedQuestions);
+        ArrayList<String> matchQuestionKeys = intent.getStringArrayListExtra("matchQuestionKeys");
+        adapter = new QuestionSearchAdapterClass(matchedQuestions, matchQuestionKeys);
 
         recyclerView = findViewById(R.id.recycleView);
         recyclerView.setAdapter(adapter);

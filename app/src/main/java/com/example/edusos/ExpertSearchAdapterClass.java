@@ -12,14 +12,14 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class QuestionSearchAdapterClass extends RecyclerView.Adapter<QuestionSearchAdapterClass.ViewHolder> {
+public class ExpertSearchAdapterClass extends RecyclerView.Adapter<ExpertSearchAdapterClass.ViewHolder> {
 
-    ArrayList<Question> questionList;
-    ArrayList<String> questionKeyList;
+    ArrayList<Expert> expertList;
+    //ArrayList<String> ExpertKeyList;
 
-    public QuestionSearchAdapterClass(ArrayList<Question> questionList, ArrayList<String> questionKeyList) {
-        this.questionList = questionList;
-        this.questionKeyList = questionKeyList;
+    public ExpertSearchAdapterClass(ArrayList<Expert> expertList) {
+        this.expertList = expertList;
+        //this.ExpertKeyList = ExpertKeyList;
     }
 
     @NonNull
@@ -31,28 +31,27 @@ public class QuestionSearchAdapterClass extends RecyclerView.Adapter<QuestionSea
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, final int position) {
-        Question questionObj = questionList.get(position);
-        String answerStr = "";
-        holder.subject.setText(questionObj.getSubject());
-        holder.question.setText(questionObj.getQuestion());
-        if (questionObj.getAnswer() != null && questionObj.getAnswer().size() >0) {
-            for (String answerItem: questionObj.getAnswer()) {
-                answerStr += "Answer: "+ answerItem + "\n";
-
-            }
-        }
-        holder.answer.setText(answerStr);
+        Expert expertObj = expertList.get(position);
+        //String answerStr = "";
+//        holder.subject.setText(questionObj.getSubject());
+//        holder.question.setText(questionObj.getExpert());
+//        if (questionObj.getAnswer() != null && questionObj.getAnswer().size() >0) {
+//            for (String answerItem: questionObj.getAnswer()) {
+//                answerStr += "Answer: "+ answerItem + "\n";
+//
+//            }
+//        }
+//        holder.answer.setText(answerStr);
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Log.d("RECYCLER_", String.valueOf(position));
-                ArrayList<Question> chosenQuestion = new ArrayList<>();
-                chosenQuestion.add(questionList.get(position));
+                ArrayList<Expert> chosenExpert = new ArrayList<>();
+                chosenExpert.add(expertList.get(position));
                 Intent intent = new Intent(view.getContext(), AnswerQuestionActivity.class);
-                //intent.putParcelableArrayListExtra("matchedQuestions", questionList); // not needed
-                intent.putParcelableArrayListExtra("chosenQuestion", chosenQuestion);
-                intent.putExtra("chosenKey", questionKeyList.get(position));
-                Log.d("CHOSENKEY_", questionKeyList.get(position));
+                //intent.putParcelableArrayListExtra("matchedQuestions", expertList); // not needed
+//
+
                 view.getContext().startActivity(intent);
             }
         });
@@ -66,9 +65,10 @@ public class QuestionSearchAdapterClass extends RecyclerView.Adapter<QuestionSea
 //            }
 //        });
 //    }
+
     @Override
     public int getItemCount() {
-        return questionList.size();
+        return expertList.size();
     }
 
     class ViewHolder extends RecyclerView.ViewHolder {
