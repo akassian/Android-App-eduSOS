@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "686869341912-m53t6fhe6obct78i9kr1sp048ht05rho.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.edusos",
+            "certificate_hash": "31b5fe1df78a6c788cf232318c120a67f5c2550d"
+          }
+        },
+        {
           "client_id": "686869341912-gd3ai2bqisers4aqmf7rabjnenhmg06t.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -44,7 +52,7 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "686869341912-85qofv2d6m874gsucvpb0eo2m1uol1b7.apps.googleusercontent.com",
+              "client_id": "686869341912-j0n9opte2lclhujptu33s7d5a8bbatml.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

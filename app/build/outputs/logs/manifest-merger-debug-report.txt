@@ -1,0 +1,375 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:2:1-72:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/4f3544d200097d1926e6df3e9bf8bd41/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/3ca7664084ef6174ed0d76f6cd5121b0/appcompat-1.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/186ea041bf90cfd1698e007f3ea9bff3/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/9ada9e59480a6739c9fc4544e5e5116b/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.firebaseui:firebase-ui-database:3.2.2] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/c17abb65604885f5279dbedb390f46e4/jetified-firebase-ui-database-3.2.2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/f10127e9d8318f4d4750b9e91ab15d15/firebase-database-19.2.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/5eebf8993cb2f01a5b46cf26dc1a20f7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:17:1-39:12
+MERGED from [de.hdodenhof:circleimageview:3.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/b8f432d3744407fc696b60085ccc9fd3/circleimageview-3.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/521744a597850a0f9d20d1889997349a/firebase-auth-interop-18.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/6bcfccd9687c7a344d7b086acc8c448b/jetified-play-services-auth-api-phone-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/83996d9bca5a67746c7858ca06c828de/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/b40e8a8611b735163d3bb330b22a1aa3/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/94ec14e6538aeca98f8a2b624dd24e40/firebase-common-19.2.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/1455bb785100d4b11974d4a82c00b629/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/d1b3b2938ac73bf3c9cad15795c491fc/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/a4204c0ce7c5d39a56057b8f99cdca71/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/f1e2e143d56b03ed786e129a8c91bc3d/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/13a4c7cd8fd8215fd8499ed5bc246a2a/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/636ebd87bcd8b2726832d269167154ac/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/9dd113d2b7e47dbc6ed74a46af93f54c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/b614102e9a5402cb1a3147f70707e21c/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/d73e6e1009237cf27d872565739753be/vectordrawable-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/4912a732fa4051a3f165a3a135002b21/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/2281b3f76cabefba90f9da62822d08c5/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/1f8033f141accf3060bf7fa4523163ef/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/4d67033ccf8e0678872f48072867854a/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/8af7d05ab37d23516f527215a03cf44c/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/ffa5b573a860e85f3e9dafba21540dd7/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/0617539de5389f3d28c561f8c663672b/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/90a65607b3629f05ebcac124238d5704/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/c15cbd39fa232698a05161bceffd149c/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/c2ecd1bc2ca1582550f1ff70e2797465/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/576da1d0dffd769126e261a00deab8bb/core-1.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/3f81a995b6a711190916f5eda8f212df/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/3720a02d6599cb5157f2ef1b603d4f76/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.firebaseui:firebase-ui-common:3.2.2] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/75923d9423ac8394fcf323751863d7b0/jetified-firebase-ui-common-3.2.2/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/f34c7d67077a34461ca6ad5df01763af/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/82f12e328b573a400c5c5265c35e1d47/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/0572fb836b13754ec5229a66c998d409/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/02d004519efdfd015e4b7e0ffb8ccafe/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/01a096ef29275d468fa434638181740d/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/145ceaebca7e3ab74e3fcbc7ad97f821/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/bb31dfd03c53854b026ea3f0fd506fd8/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/40dad39870a636cf9adaa5772b973147/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/c3c31d5719acdf1b8221287c80abc25f/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/62304ec1cd22dbd9633246fb9f969202/firebase-database-collection-17.0.0/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:2:1-72:12
+	package
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:4:5-33
+		INJECTED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:2:1-72:12
+		INJECTED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:2:1-72:12
+		INJECTED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:6:5-70:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/4f3544d200097d1926e6df3e9bf8bd41/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/4f3544d200097d1926e6df3e9bf8bd41/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/186ea041bf90cfd1698e007f3ea9bff3/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/186ea041bf90cfd1698e007f3ea9bff3/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/f10127e9d8318f4d4750b9e91ab15d15/firebase-database-19.2.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/f10127e9d8318f4d4750b9e91ab15d15/firebase-database-19.2.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/5eebf8993cb2f01a5b46cf26dc1a20f7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/5eebf8993cb2f01a5b46cf26dc1a20f7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:22:5-37:19
+MERGED from [de.hdodenhof:circleimageview:3.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/b8f432d3744407fc696b60085ccc9fd3/circleimageview-3.0.1/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/b8f432d3744407fc696b60085ccc9fd3/circleimageview-3.0.1/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/521744a597850a0f9d20d1889997349a/firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/521744a597850a0f9d20d1889997349a/firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/b40e8a8611b735163d3bb330b22a1aa3/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/b40e8a8611b735163d3bb330b22a1aa3/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/94ec14e6538aeca98f8a2b624dd24e40/firebase-common-19.2.0/AndroidManifest.xml:12:5-24:19
+MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/94ec14e6538aeca98f8a2b624dd24e40/firebase-common-19.2.0/AndroidManifest.xml:12:5-24:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/1455bb785100d4b11974d4a82c00b629/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/1455bb785100d4b11974d4a82c00b629/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/d1b3b2938ac73bf3c9cad15795c491fc/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/d1b3b2938ac73bf3c9cad15795c491fc/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/576da1d0dffd769126e261a00deab8bb/core-1.0.1/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/576da1d0dffd769126e261a00deab8bb/core-1.0.1/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/3f81a995b6a711190916f5eda8f212df/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/3f81a995b6a711190916f5eda8f212df/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/576da1d0dffd769126e261a00deab8bb/core-1.0.1/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:10:9-46
+	tools:ignore
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:14:9-48
+	android:roundIcon
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:13:9-40
+	android:name
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:7:9-42
+activity#com.example.edusos.ChatActivity
+ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:15:9-18:20
+	android:screenOrientation
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:17:13-49
+	android:name
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:16:13-41
+activity#com.example.edusos.ChatListActivity
+ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:19:9-22:20
+	android:screenOrientation
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:21:13-49
+	android:name
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:20:13-45
+activity#com.example.edusos.ExpertSearchResultActivity
+ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:23:9-26:20
+	android:screenOrientation
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:25:13-49
+	android:name
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:24:13-55
+activity#com.example.edusos.ExpertSearchActivity
+ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:27:9-30:20
+	android:screenOrientation
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:29:13-49
+	android:name
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:28:13-49
+activity#com.example.edusos.RegisterStudentActivity
+ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:31:9-34:20
+	android:screenOrientation
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:33:13-49
+	android:name
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:32:13-52
+activity#com.example.edusos.LogInSignUpActivity
+ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:35:9-38:20
+	android:screenOrientation
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:37:13-49
+	android:name
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:36:13-48
+activity#com.example.edusos.RegisterExpertActivity
+ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:39:9-42:20
+	android:screenOrientation
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:41:13-49
+	android:name
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:40:13-51
+activity#com.example.edusos.AnswerQuestionActivity
+ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:43:9-46:20
+	android:screenOrientation
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:45:13-49
+	android:name
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:44:13-51
+activity#com.example.edusos.QuestionSearchResultActivity
+ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:47:9-50:20
+	android:screenOrientation
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:49:13-49
+	android:name
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:48:13-57
+activity#com.example.edusos.PostQuestionActivity
+ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:51:9-55:20
+	android:screenOrientation
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:53:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:54:13-52
+	android:name
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:52:13-49
+activity#com.example.edusos.MainActivity
+ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:57:9-65:20
+	android:screenOrientation
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:59:13-49
+	android:name
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:58:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:60:13-64:29
+action#android.intent.action.MAIN
+ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:61:17-69
+	android:name
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:61:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:63:17-77
+	android:name
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:63:27-74
+meta-data#preloaded_fonts
+ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:67:9-69:57
+	android:resource
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:69:13-54
+	android:name
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml:68:13-43
+uses-sdk
+INJECTED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml
+INJECTED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/4f3544d200097d1926e6df3e9bf8bd41/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/4f3544d200097d1926e6df3e9bf8bd41/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/3ca7664084ef6174ed0d76f6cd5121b0/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/3ca7664084ef6174ed0d76f6cd5121b0/appcompat-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/186ea041bf90cfd1698e007f3ea9bff3/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/186ea041bf90cfd1698e007f3ea9bff3/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/9ada9e59480a6739c9fc4544e5e5116b/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/9ada9e59480a6739c9fc4544e5e5116b/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-database:3.2.2] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/c17abb65604885f5279dbedb390f46e4/jetified-firebase-ui-database-3.2.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-database:3.2.2] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/c17abb65604885f5279dbedb390f46e4/jetified-firebase-ui-database-3.2.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/f10127e9d8318f4d4750b9e91ab15d15/firebase-database-19.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/f10127e9d8318f4d4750b9e91ab15d15/firebase-database-19.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/5eebf8993cb2f01a5b46cf26dc1a20f7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/5eebf8993cb2f01a5b46cf26dc1a20f7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:3.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/b8f432d3744407fc696b60085ccc9fd3/circleimageview-3.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/b8f432d3744407fc696b60085ccc9fd3/circleimageview-3.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/521744a597850a0f9d20d1889997349a/firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/521744a597850a0f9d20d1889997349a/firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/6bcfccd9687c7a344d7b086acc8c448b/jetified-play-services-auth-api-phone-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/6bcfccd9687c7a344d7b086acc8c448b/jetified-play-services-auth-api-phone-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/83996d9bca5a67746c7858ca06c828de/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/83996d9bca5a67746c7858ca06c828de/jetified-play-services-auth-base-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/b40e8a8611b735163d3bb330b22a1aa3/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/b40e8a8611b735163d3bb330b22a1aa3/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/94ec14e6538aeca98f8a2b624dd24e40/firebase-common-19.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/94ec14e6538aeca98f8a2b624dd24e40/firebase-common-19.2.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/1455bb785100d4b11974d4a82c00b629/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/1455bb785100d4b11974d4a82c00b629/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/d1b3b2938ac73bf3c9cad15795c491fc/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/d1b3b2938ac73bf3c9cad15795c491fc/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/a4204c0ce7c5d39a56057b8f99cdca71/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/a4204c0ce7c5d39a56057b8f99cdca71/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/f1e2e143d56b03ed786e129a8c91bc3d/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/f1e2e143d56b03ed786e129a8c91bc3d/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/13a4c7cd8fd8215fd8499ed5bc246a2a/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/13a4c7cd8fd8215fd8499ed5bc246a2a/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/636ebd87bcd8b2726832d269167154ac/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/636ebd87bcd8b2726832d269167154ac/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/9dd113d2b7e47dbc6ed74a46af93f54c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/9dd113d2b7e47dbc6ed74a46af93f54c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/b614102e9a5402cb1a3147f70707e21c/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/b614102e9a5402cb1a3147f70707e21c/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/d73e6e1009237cf27d872565739753be/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/d73e6e1009237cf27d872565739753be/vectordrawable-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/4912a732fa4051a3f165a3a135002b21/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/4912a732fa4051a3f165a3a135002b21/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/2281b3f76cabefba90f9da62822d08c5/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/2281b3f76cabefba90f9da62822d08c5/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/1f8033f141accf3060bf7fa4523163ef/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/1f8033f141accf3060bf7fa4523163ef/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/4d67033ccf8e0678872f48072867854a/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/4d67033ccf8e0678872f48072867854a/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/8af7d05ab37d23516f527215a03cf44c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/8af7d05ab37d23516f527215a03cf44c/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/ffa5b573a860e85f3e9dafba21540dd7/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/ffa5b573a860e85f3e9dafba21540dd7/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/0617539de5389f3d28c561f8c663672b/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/0617539de5389f3d28c561f8c663672b/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/90a65607b3629f05ebcac124238d5704/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/90a65607b3629f05ebcac124238d5704/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/c15cbd39fa232698a05161bceffd149c/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/c15cbd39fa232698a05161bceffd149c/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/c2ecd1bc2ca1582550f1ff70e2797465/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/c2ecd1bc2ca1582550f1ff70e2797465/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/576da1d0dffd769126e261a00deab8bb/core-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/576da1d0dffd769126e261a00deab8bb/core-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/3f81a995b6a711190916f5eda8f212df/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/3f81a995b6a711190916f5eda8f212df/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/3720a02d6599cb5157f2ef1b603d4f76/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/3720a02d6599cb5157f2ef1b603d4f76/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-common:3.2.2] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/75923d9423ac8394fcf323751863d7b0/jetified-firebase-ui-common-3.2.2/AndroidManifest.xml:8:5-10:41
+MERGED from [com.firebaseui:firebase-ui-common:3.2.2] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/75923d9423ac8394fcf323751863d7b0/jetified-firebase-ui-common-3.2.2/AndroidManifest.xml:8:5-10:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/f34c7d67077a34461ca6ad5df01763af/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/f34c7d67077a34461ca6ad5df01763af/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/82f12e328b573a400c5c5265c35e1d47/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/82f12e328b573a400c5c5265c35e1d47/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/0572fb836b13754ec5229a66c998d409/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/0572fb836b13754ec5229a66c998d409/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/02d004519efdfd015e4b7e0ffb8ccafe/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/02d004519efdfd015e4b7e0ffb8ccafe/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/01a096ef29275d468fa434638181740d/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/01a096ef29275d468fa434638181740d/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/145ceaebca7e3ab74e3fcbc7ad97f821/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/145ceaebca7e3ab74e3fcbc7ad97f821/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/bb31dfd03c53854b026ea3f0fd506fd8/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/bb31dfd03c53854b026ea3f0fd506fd8/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/40dad39870a636cf9adaa5772b973147/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/40dad39870a636cf9adaa5772b973147/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/c3c31d5719acdf1b8221287c80abc25f/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/c3c31d5719acdf1b8221287c80abc25f/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/62304ec1cd22dbd9633246fb9f969202/firebase-database-collection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/62304ec1cd22dbd9633246fb9f969202/firebase-database-collection-17.0.0/AndroidManifest.xml:5:5-44
+INJECTED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml
+INJECTED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml
+		ADDED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/clarkpalmer/Development/eduSOS/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [com.firebaseui:firebase-ui-database:3.2.2] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/c17abb65604885f5279dbedb390f46e4/jetified-firebase-ui-database-3.2.2/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/f10127e9d8318f4d4750b9e91ab15d15/firebase-database-19.2.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/f10127e9d8318f4d4750b9e91ab15d15/firebase-database-19.2.0/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-database:3.2.2] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/c17abb65604885f5279dbedb390f46e4/jetified-firebase-ui-database-3.2.2/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/f10127e9d8318f4d4750b9e91ab15d15/firebase-database-19.2.0/AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/f10127e9d8318f4d4750b9e91ab15d15/firebase-database-19.2.0/AndroidManifest.xml:25:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/f10127e9d8318f4d4750b9e91ab15d15/firebase-database-19.2.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/94ec14e6538aeca98f8a2b624dd24e40/firebase-common-19.2.0/AndroidManifest.xml:13:9-17:35
+MERGED from [com.google.firebase:firebase-common:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/94ec14e6538aeca98f8a2b624dd24e40/firebase-common-19.2.0/AndroidManifest.xml:13:9-17:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/f10127e9d8318f4d4750b9e91ab15d15/firebase-database-19.2.0/AndroidManifest.xml:31:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/94ec14e6538aeca98f8a2b624dd24e40/firebase-common-19.2.0/AndroidManifest.xml:17:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/94ec14e6538aeca98f8a2b624dd24e40/firebase-common-19.2.0/AndroidManifest.xml:15:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/f10127e9d8318f4d4750b9e91ab15d15/firebase-database-19.2.0/AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/f10127e9d8318f4d4750b9e91ab15d15/firebase-database-19.2.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/f10127e9d8318f4d4750b9e91ab15d15/firebase-database-19.2.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/f10127e9d8318f4d4750b9e91ab15d15/firebase-database-19.2.0/AndroidManifest.xml:33:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/5eebf8993cb2f01a5b46cf26dc1a20f7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/5eebf8993cb2f01a5b46cf26dc1a20f7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/5eebf8993cb2f01a5b46cf26dc1a20f7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/5eebf8993cb2f01a5b46cf26dc1a20f7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/5eebf8993cb2f01a5b46cf26dc1a20f7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/5eebf8993cb2f01a5b46cf26dc1a20f7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/5eebf8993cb2f01a5b46cf26dc1a20f7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/5eebf8993cb2f01a5b46cf26dc1a20f7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/5eebf8993cb2f01a5b46cf26dc1a20f7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/b40e8a8611b735163d3bb330b22a1aa3/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/b40e8a8611b735163d3bb330b22a1aa3/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/b40e8a8611b735163d3bb330b22a1aa3/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/b40e8a8611b735163d3bb330b22a1aa3/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/94ec14e6538aeca98f8a2b624dd24e40/firebase-common-19.2.0/AndroidManifest.xml:19:9-23:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/94ec14e6538aeca98f8a2b624dd24e40/firebase-common-19.2.0/AndroidManifest.xml:21:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/94ec14e6538aeca98f8a2b624dd24e40/firebase-common-19.2.0/AndroidManifest.xml:22:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/94ec14e6538aeca98f8a2b624dd24e40/firebase-common-19.2.0/AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.2.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/94ec14e6538aeca98f8a2b624dd24e40/firebase-common-19.2.0/AndroidManifest.xml:20:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/d1b3b2938ac73bf3c9cad15795c491fc/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/d1b3b2938ac73bf3c9cad15795c491fc/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/clarkpalmer/.gradle/caches/transforms-2/files-2.1/d1b3b2938ac73bf3c9cad15795c491fc/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58

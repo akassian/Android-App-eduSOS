@@ -6,16 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".QuestionSearchResultActivity">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:textSize="25sp"
-        android:textStyle="italic"
-        android:text="Click on a question to post an answer."/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycleView"
+        android:id="@+id/questionSearchRecycleView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="5dp"

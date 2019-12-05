@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/receiver_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/receiver_msg_layout"
+        android:fontFamily="@font/montserrat"
+        android:maxWidth="280dp"
+        android:paddingLeft="14dp"
+        android:paddingTop="5dp"
+        android:paddingRight="14dp"
+        android:paddingBottom="5dp"
+        android:text=""
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sender_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/receiver_msg"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/sender_msg_layout"
+        android:fontFamily="@font/montserrat"
+        android:maxWidth="280dp"
+        android:paddingLeft="14dp"
+        android:paddingTop="5dp"
+        android:paddingRight="14dp"
+        android:paddingBottom="5dp"
+        android:text=""
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name"></string>
+    <string name="app_name_icon">eduSoS</string>
     <string name="search_hint">Search our answer forums</string>
     <string name="title_activity_searchable">SearchableActivity</string>
+    <string name="email_subject_default">EduSoS!</string>
+    <string name="email_body_default">Hi, I\'m looking for some academic help and I came across your profile on EduSoS, could we set up a time to chat?</string>
 </resources>

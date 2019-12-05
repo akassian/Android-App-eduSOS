@@ -1,24 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.edusos">
 
     <application
         android:name=".EduSOSApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="@string/app_name_icon"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".ExpertSearchActivity"></activity>
-        <activity android:name=".RegisterStudentActivity" />
-        <activity android:name=".LogInSignUpActivity" />
-        <activity android:name=".RegisterExpertActivity" />
-        <activity android:name=".AnswerQuestionActivity" />
-        <activity android:name=".QuestionSearchResultActivity" />
-        <activity android:name=".PostQuestionActivity" />
-        <activity android:name=".AskExpertActivity" />
-        <activity android:name=".MainActivity">
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".ChatActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ChatListActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ExpertSearchResultActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".ExpertSearchActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".RegisterStudentActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".LogInSignUpActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".RegisterExpertActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".AnswerQuestionActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".QuestionSearchResultActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".PostQuestionActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

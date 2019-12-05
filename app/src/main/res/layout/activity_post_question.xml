@@ -11,89 +11,66 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardView"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="32dp"
-            android:onClick="onBackClick"
-            app:cardCornerRadius="25dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_marginStart="12dp"
-                android:layout_marginLeft="14dp"
-                android:layout_marginTop="16dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_backarrow" />
-        </androidx.cardview.widget.CardView>
-
         <ImageView
             android:id="@+id/splashLightbulb2"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginTop="36dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="12dp"
+            android:tint="#757575"
+            app:layout_constraintBottom_toBottomOf="@+id/expert_profile_splash"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/expert_profile_splash"
             app:srcCompat="@drawable/lightbulb" />
 
         <TextView
-            android:id="@+id/splashTitle2"
+            android:id="@+id/expert_profile_splash"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
             android:fontFamily="@font/montserrat"
             android:text="eduSoS"
             android:textColor="@color/colorPrimary"
             android:textSize="36sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/splashLightbulb2" />
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <TextView
             android:id="@+id/welcome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="0dp"
             android:fontFamily="@font/montserrat"
             android:text=""
-            android:textSize="25sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/splashTitle2" />
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="0dp"
             android:fontFamily="@font/montserrat"
             android:text="Ask a Question"
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/welcome" />
+            app:layout_constraintTop_toBottomOf="@+id/expert_profile_splash" />
 
 
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="24dp"
-            android:layout_marginTop="24dp"
             android:layout_marginEnd="24dp"
             android:layout_marginBottom="24dp"
             app:cardCornerRadius="5dp"
             app:cardElevation="5dp"
-            app:layout_constraintBottom_toTopOf="@+id/cardView2"
+            app:layout_constraintBottom_toTopOf="@+id/postButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" >
+            app:layout_constraintTop_toBottomOf="@+id/welcome">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -103,30 +80,31 @@
                     android:id="@+id/divider2"
                     android:layout_width="384dp"
                     android:layout_height="1dp"
-                    android:layout_marginTop="50dp"
+                    android:layout_marginTop="8dp"
                     android:background="?android:attr/listDivider"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
 
                 <View
                     android:id="@+id/divider4"
                     android:layout_width="0dp"
                     android:layout_height="1dp"
-                    android:layout_marginBottom="80dp"
+                    android:layout_marginTop="60dp"
                     android:background="?android:attr/listDivider"
-                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent" />
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/textView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="0dp"
                     android:fontFamily="@font/montserrat"
                     android:text="Subject"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toTopOf="@+id/divider4"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -134,16 +112,20 @@
                     android:id="@+id/editText"
                     android:layout_width="0dp"
                     android:layout_height="0dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginEnd="16dp"
-                    android:layout_marginBottom="2dp"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@android:color/transparent"
                     android:cursorVisible="true"
                     android:ems="10"
                     android:fontFamily="@font/montserrat"
-                    android:hint="e.g. How to do matrix multiplication"
+                    android:hint="e.g. How to multiply a matrix"
                     android:inputType="textPersonName"
+                    android:selectAllOnFocus="true"
+                    android:textColorHighlight="@color/colorPrimary"
                     android:textSize="14sp"
-                    app:layout_constraintBottom_toTopOf="@+id/divider2"
+                    app:layout_constraintBottom_toTopOf="@+id/divider4"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/textView4"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -162,29 +144,78 @@
                     android:paddingTop="16dp"
                     android:paddingEnd="16dp"
                     android:paddingBottom="16dp"
+                    android:textColorHighlight="@color/colorPrimary"
                     android:textSize="14sp"
                     app:boxBackgroundMode="none"
-                    app:layout_constraintBottom_toTopOf="@+id/divider4"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/divider2" />
 
-                <com.google.android.material.chip.ChipGroup
-                    android:layout_width="384dp"
-                    android:layout_height="128dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Tags"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/divider4" />
+
+                <EditText
+                    android:id="@+id/tagsBox"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:fontFamily="@font/montserrat"
+                    android:hint="e.g. Math, Programming, Physics"
+                    android:inputType="textPersonName"
+                    android:singleLine="true"
+                    android:textColorHighlight="@color/colorPrimary"
+                    android:textSize="14sp"
+                    app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView8"
+                    app:layout_constraintTop_toBottomOf="@+id/divider4" />
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="55dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/divider4">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.chip.ChipGroup
+                            android:id="@+id/tags"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="8dp"
+                            app:chipSpacing="5dp"
+                            app:singleLine="true" />
+                    </LinearLayout>
+                </HorizontalScrollView>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
 
-
-
-
         <androidx.cardview.widget.CardView
-            android:id="@+id/cardView2"
+            android:id="@+id/postButton"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginStart="24dp"

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:animateLayoutChanges="true"
+    android:layout_height="wrap_content"
+    tools:context=".ExpertSearchResultActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/collapsed_expert_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:animateLayoutChanges="true"
+                android:clickable="true"
+                android:focusable="auto">
+
+                <TextView
+                    android:id="@+id/expert_profile_name"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="center_vertical"
+                    android:text="Clark\nPalmer"
+                    android:textSize="32dp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/profileImageContainer"
+                    app:layout_constraintHorizontal_bias="0.49"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/expert_profile_ratePerQuestion"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/green_rrect"
+                    android:fontFamily="@font/montserrat"
+                    android:paddingLeft="6dp"
+                    android:paddingTop="1dp"
+                    android:paddingRight="6dp"
+                    android:paddingBottom="3dp"
+                    android:scaleX="0.95"
+                    android:text="$ 4.25"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/expert_profile_chip_scroll" />
+
+                <TextView
+                    android:id="@+id/expert_profile_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/gold_rrect"
+                    android:drawableLeft="@drawable/ic_star_border_24px"
+                    android:drawablePadding="2dp"
+                    android:fontFamily="@font/montserrat"
+                    android:paddingStart="6dp"
+                    android:paddingTop="2dp"
+                    android:paddingEnd="8dp"
+                    android:paddingBottom="3dp"
+                    android:scaleX="0.95"
+                    android:text="4.2 / 5"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/expert_profile_ratePerQuestion"
+                    app:layout_constraintEnd_toStartOf="@+id/space3"
+                    app:layout_constraintStart_toEndOf="@+id/space2"
+                    app:layout_constraintTop_toTopOf="@+id/expert_profile_ratePerQuestion" />
+
+                <HorizontalScrollView
+                    android:id="@+id/expert_profile_chip_scroll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="6dp"
+                    app:layout_constraintStart_toStartOf="@+id/expert_profile_ratePerQuestion"
+                    app:layout_constraintTop_toBottomOf="@+id/profileImageContainer">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.chip.ChipGroup
+                            android:id="@+id/expert_profile_subjects"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:singleLine="true" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <View
+                    android:id="@+id/expert_profile_bottom_divider"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="?android:attr/listDivider"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/expert_profile_questionAnswered" />
+
+                <TextView
+                    android:id="@+id/expert_profile_questionAnswered"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/blue_rrect"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="7dp"
+                    android:scaleX="0.95"
+                    android:text="13 Answers"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/expert_profile_rating"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/space3"
+                    app:layout_constraintTop_toTopOf="@+id/expert_profile_rating" />
+
+                <Space
+                    android:id="@+id/space2"
+                    android:layout_width="5dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/expert_profile_ratePerQuestion"
+                    app:layout_constraintStart_toEndOf="@+id/expert_profile_ratePerQuestion"
+                    app:layout_constraintTop_toTopOf="@+id/expert_profile_ratePerQuestion" />
+
+                <Space
+                    android:id="@+id/space3"
+                    android:layout_width="5dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/expert_profile_questionAnswered"
+                    app:layout_constraintEnd_toEndOf="@+id/expert_profile_rating"
+                    app:layout_constraintTop_toTopOf="@+id/expert_profile_questionAnswered" />
+
+                <RelativeLayout
+                    android:id="@+id/profileImageContainer"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profileImage"
+                        android:layout_width="96dp"
+                        android:layout_height="96dp"
+                        app:civ_border_color="#000"
+                        app:civ_border_width="2dp" />
+
+                    <ImageView
+                        android:id="@+id/onlineIndicator"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginBottom="0dp"
+                        app:srcCompat="@drawable/ic_online" />
+
+                </RelativeLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/chatButton"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/space"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            android:text="Chat Now"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="21sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <Space
+                    android:id="@+id/space"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/emailButton"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/chatButton"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/space"
+                    app:layout_constraintTop_toTopOf="@+id/chatButton">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/emailButtonText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/montserrat"
+                            android:text="Email"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="21sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+

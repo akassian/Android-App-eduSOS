@@ -1,14 +1,23 @@
 package com.example.edusos;
 
+import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
+import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
+
+import com.google.android.material.chip.Chip;
+import com.google.android.material.chip.ChipDrawable;
+import com.google.android.material.chip.ChipGroup;
 
 import java.util.ArrayList;
 
@@ -38,10 +47,27 @@ public class QuestionSearchAdapterClass extends RecyclerView.Adapter<QuestionSea
         if (questionObj.getAnswer() != null && questionObj.getAnswer().size() >0) {
             for (String answerItem: questionObj.getAnswer()) {
                 answerStr += "Answer: "+ answerItem + "\n";
-
             }
+            answerStr = answerStr.substring(0, answerStr.length() - 1);
+            int color = ContextCompat.getColor(holder.itemView.getContext(), R.color.colorBlack);
+            holder.answer.setTextColor(color);
+        } else {
+            answerStr = "No answers yet";
+            int color = ContextCompat.getColor(holder.itemView.getContext(), R.color.colorPrimary);
+            holder.answer.setTextColor(color);
         }
         holder.answer.setText(answerStr);
+
+        holder.topics.removeAllViews();
+        ArrayList<String> topics = questionObj.getTopics();
+        if (topics != null && topics.size() > 0) {
+            for (String topic: topics) {
+                Log.d("CHIP", topic);
+                holder.addChip(topic);
+            }
+        }
+
+
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -58,27 +84,40 @@ public class QuestionSearchAdapterClass extends RecyclerView.Adapter<QuestionSea
         });
     }
 
-//    public void onBindViewHolder(ViewHolder holder, final int position) {
-//        holder.view.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Toast.makeText(context, "Recycle Click" + position, Toast.LENGTH_SHORT).show();
-//            }
-//        });
-//    }
     @Override
     public int getItemCount() {
         return questionList.size();
     }
 
+
+
     class ViewHolder extends RecyclerView.ViewHolder {
         TextView subject, question, answer;
+        ChipGroup topics;
+        View mItemView;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            subject = itemView.findViewById(R.id.cardview_subject);
-            question = itemView.findViewById(R.id.cardview_question);
-            answer = itemView.findViewById(R.id.cardview_answer);
+            subject = itemView.findViewById(R.id.question_result_subject);
+            question = itemView.findViewById(R.id.question_result_question);
+            answer = itemView.findViewById(R.id.question_result_answer);
+            topics = itemView.findViewById(R.id.question_list_chips);
+            mItemView = itemView;
+        }
+
+        private void addChip(String text) {
+            Context context = mItemView.getContext();
+            final Chip chip = new Chip(context);
+            chip.setChipDrawable(ChipDrawable.createFromResource(context, R.xml.chip));
+            int paddingDp = (int) TypedValue.applyDimension(
+                    TypedValue.COMPLEX_UNIT_DIP, 10,
+                    context.getResources().getDisplayMetrics()
+            );
+            chip.setPadding(paddingDp, paddingDp, paddingDp, paddingDp);
+            chip.setText(text);
+            chip.setCloseIconVisible(false);
+            chip.setClickable(false);
+            topics.addView(chip);
         }
     }
 }

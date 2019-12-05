@@ -6,6 +6,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 
 import android.os.Bundle;
+import android.util.TypedValue;
+
+import com.google.android.material.chip.Chip;
+import com.google.android.material.chip.ChipDrawable;
+import com.google.android.material.chip.ChipGroup;
 
 import java.util.ArrayList;
 
@@ -18,6 +23,8 @@ public class QuestionSearchResultActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question_search_result);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+
 
         Intent intent = getIntent();
 
@@ -25,9 +32,7 @@ public class QuestionSearchResultActivity extends AppCompatActivity {
         ArrayList<String> matchQuestionKeys = intent.getStringArrayListExtra("matchQuestionKeys");
         adapter = new QuestionSearchAdapterClass(matchedQuestions, matchQuestionKeys);
 
-        recyclerView = findViewById(R.id.recycleView);
+        recyclerView = findViewById(R.id.questionSearchRecycleView);
         recyclerView.setAdapter(adapter);
     }
-
-
 }

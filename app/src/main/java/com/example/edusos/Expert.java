@@ -10,7 +10,7 @@ public class Expert implements Parcelable {
     private String name;
     private String googleAccount;
     private String phone;
-    private String imgUrl;
+    private String imageURL;
 
     private ArrayList<String> subjects;
     private Double ratePerQuestion = 0.0;
@@ -26,6 +26,10 @@ public class Expert implements Parcelable {
         this.phone = phone;
         this.subjects = subjects;
         this.ratePerQuestion = ratePerQuestion;
+        this.rating = 4.0;
+        this.questionsAnswered = 10;
+        this.online = true;
+        this.imageURL = "https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/37/2014/06/05162439/White-Square.jpg";
     }
 
     public Expert(Parcel source) {
@@ -33,7 +37,7 @@ public class Expert implements Parcelable {
         name = source.readString();
         googleAccount = source.readString();
         phone = source.readString();
-        imgUrl = source.readString();
+        imageURL = source.readString();
         subjects = source.readArrayList(String.class.getClassLoader());
         ratePerQuestion = source.readDouble();
         questionsAnswered = source.readInt();
@@ -75,12 +79,12 @@ public class Expert implements Parcelable {
     public void setPhone(String phone) {
         this.phone = phone;
     }
-    public String getImgUrl() {
-        return imgUrl;
+    public String getImageURL() {
+        return imageURL;
     }
 
-    public void setImgUrl(String imgUrl) {
-        this.imgUrl = imgUrl;
+    public void setImageURL(String imageURL) {
+        this.imageURL = imageURL;
     }
 
     public ArrayList<String> getSubjects() {
@@ -130,7 +134,7 @@ public class Expert implements Parcelable {
     @Override
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(this.id);
-        dest.writeString(this.imgUrl);
+        dest.writeString(this.imageURL);
         dest.writeString(this.name);
         dest.writeString(this.googleAccount);
         dest.writeString(this.phone);

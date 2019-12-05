@@ -15,6 +15,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.api.ApiException;
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -30,6 +31,7 @@ public class LogInSignUpActivity extends AppCompatActivity {
     GoogleSignInClient mGoogleSignInClient;
     private static final int RC_SIGN_IN = 007;
     GoogleSignInAccount googleAccount;
+
     private DatabaseReference dbExperts;
 
 
@@ -37,6 +39,8 @@ public class LogInSignUpActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_log_in_sign_up);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+
 
         dbExperts = FirebaseDatabase.getInstance().getReference("Experts");
     }
@@ -63,9 +67,11 @@ public class LogInSignUpActivity extends AppCompatActivity {
         // Build a GoogleSignInClient with the options specified by gso.
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
         GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(this);
-        updateData(account);
+        updateData(account, true);
         signIn();
     }
+
+
     private void signIn() {
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
         //startActivityForResult(signInIntent,1);
@@ -90,16 +96,13 @@ public class LogInSignUpActivity extends AppCompatActivity {
 
             ((EduSOSApplication) LogInSignUpActivity.this.getApplication()).setAccount(account); // save account in a global variable
 
-
             //String personName = account.getDisplayName();
-
-//
 
             //String email = account.getEmail();
 
             //txt_welcome.setText("Welcome "+personName+"\n"+ email);
 
-            updateData(account);   // Signed in successfully, show authenticated UI.
+            updateData(account, true);   // Signed in successfully, show authenticated UI.
 
         } catch (ApiException e) {
             // The ApiException status code indicates the detailed failure reason.
@@ -107,25 +110,22 @@ public class LogInSignUpActivity extends AppCompatActivity {
             Log.w("SIGNIN_", "signInResult:failed code=" + e.getStatusCode());
             Log.d("SIGNIN_", "signInResult:failed code=" + e.getStatusCode());
 
-            updateData(null);
+            updateData(null, false);
         }
     }
 
-    private void updateData(GoogleSignInAccount account) {
+    private void updateData(GoogleSignInAccount account, Boolean onlineStatus) {
+        final Boolean onlineStatus1 = onlineStatus;
         String email;
         String googleAcc;
         if (account != null) {
-            //Toast.makeText(this, account.getDisplayName(), Toast. LENGTH_LONG).show();
+
             Log.d("SIGNIN_UI", account.getDisplayName() + ",   " + account.getEmail());
 
             if (account.getEmail()!= null) {
                 email = account.getEmail().toString();
                 googleAcc = email.split("@")[0];
-
                 Query query = dbExperts.orderByChild("googleAccount").equalTo(googleAcc);
-                //query.addValueEventListener(valueEventListener);
-
-
                 query.addValueEventListener(new ValueEventListener() {
 
                     @Override
@@ -138,11 +138,16 @@ public class LogInSignUpActivity extends AppCompatActivity {
                                 DatabaseReference updateExpert = FirebaseDatabase.getInstance()
                                         .getReference("Experts")
                                         .child(key);
-                                updateExpert.child("online").setValue(true);
+                                if (updateExpert != null) {
+                                    updateExpert.child("online").setValue(onlineStatus1);
 
-                                Log.d("ONLINE_", "true");
-                                Toast.makeText(LogInSignUpActivity.this, "online", Toast.LENGTH_SHORT).show();
-                                break;
+                                    Log.d("ONLINE_", String.valueOf(onlineStatus1));
+                                    ((EduSOSApplication) LogInSignUpActivity.this.getApplication()).setLoggedInAsExpert(true);
+                                    Log.d("LOGIN_", String.valueOf(((EduSOSApplication) LogInSignUpActivity.this.getApplication()).getLoggedInAsExpert()));
+
+                                    //Toast.makeText(LogInSignUpActivity.this, "Online Status Updated!", Toast.LENGTH_SHORT).show();
+                                    break;
+                                }
 
                             }
                         }
@@ -162,4 +167,28 @@ public class LogInSignUpActivity extends AppCompatActivity {
         }
 
     }
+
+
+    public void onLogoutClick(View button) {
+        signOut();
+
+    }
+
+    private void signOut() {
+        mGoogleSignInClient.signOut()
+                .addOnCompleteListener(this, new OnCompleteListener<Void>() {
+                    @Override
+                    public void onComplete(@NonNull Task<Void> task) {
+                        signOutUpdate();
+                        Toast.makeText(LogInSignUpActivity.this, "You have logged out!", Toast.LENGTH_SHORT).show();
+
+                    }
+                });
+    }
+    private void signOutUpdate() {
+        ((EduSOSApplication) LogInSignUpActivity.this.getApplication()).setAccount(null);
+        ((EduSOSApplication) LogInSignUpActivity.this.getApplication()).setLoggedInAsExpert(false);
+
+    }
+
 }

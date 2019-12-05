@@ -15,8 +15,6 @@ import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import java.util.ArrayList;
-
 public class RegisterStudentActivity extends AppCompatActivity {
 
 
@@ -35,13 +33,14 @@ public class RegisterStudentActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register_student);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
 
         dbStudents = FirebaseDatabase.getInstance().getReference("Students");
 
         editTextName = (EditText) findViewById(R.id.editTextName);
         editTextGoogleAcc = (EditText) findViewById(R.id.editTextGoogleAcc);
         radioGroupMembership = (RadioGroup) findViewById(R.id.radioGroupMembership);
-        postCard = (CardView) findViewById(R.id.cardView2);
+        postCard = (CardView) findViewById(R.id.signUpStudentButton);
 
         postCard.setOnClickListener(new View.OnClickListener() {
             @Override

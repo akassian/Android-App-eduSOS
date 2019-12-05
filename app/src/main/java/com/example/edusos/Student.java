@@ -8,8 +8,7 @@ public class Student implements Parcelable {
     private String name;
     private String googleAccount;
     private String membershipType;
-    //private Boolean online = false;
-    private Boolean online = true;  // for testing
+    private Boolean online = true;
 
     public Student() {}
     public Student (String name, String googleAccount, String membershipType) {
