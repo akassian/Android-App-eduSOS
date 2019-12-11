@@ -96,6 +96,7 @@ public class LogInSignUpActivity extends AppCompatActivity {
 
             ((EduSOSApplication) LogInSignUpActivity.this.getApplication()).setAccount(account); // save account in a global variable
 
+
             //String personName = account.getDisplayName();
 
             //String email = account.getEmail();
@@ -127,17 +128,17 @@ public class LogInSignUpActivity extends AppCompatActivity {
                 googleAcc = email.split("@")[0];
                 Query query = dbExperts.orderByChild("googleAccount").equalTo(googleAcc);
                 query.addValueEventListener(new ValueEventListener() {
-
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                         if (dataSnapshot.exists()) {
                             for (DataSnapshot ds: dataSnapshot.getChildren()) {
 
-                                Expert expert= ds.getValue(Expert.class);
+                                Expert expert = ds.getValue(Expert.class);
                                 String key = ds.getKey();
                                 DatabaseReference updateExpert = FirebaseDatabase.getInstance()
                                         .getReference("Experts")
                                         .child(key);
+
                                 if (updateExpert != null) {
                                     updateExpert.child("online").setValue(onlineStatus1);
 

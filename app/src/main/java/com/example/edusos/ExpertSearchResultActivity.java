@@ -19,6 +19,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ExpertSearchResultActivity extends AppCompatActivity {
     
@@ -82,7 +83,6 @@ public class ExpertSearchResultActivity extends AppCompatActivity {
             searchText = searchText.trim().toLowerCase();
 
             for (int i = 0; i < allExperts.size(); i++) {
-
                 expert = allExperts.get(i);
                 if (expert.getSubjects() != null && expert.getSubjects().size() >0) {
                     for (int j=0; j< expert.getSubjects().size(); j++) {
@@ -90,18 +90,15 @@ public class ExpertSearchResultActivity extends AppCompatActivity {
                             if (!onlineOnly || (onlineOnly && expert.getOnline())) {
                                 matchedExperts.add(allExperts.get(i));
                                 matchExpertKeys.add(allExpertKeys.get(i));
-
                             }
-
                             break;
-
                         }
-
                     }
                 }
-
             }
 
+            Collections.reverse(matchedExperts);
+            Collections.reverse(matchExpertKeys);
         }
 
     }
