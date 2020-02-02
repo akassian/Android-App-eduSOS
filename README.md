@@ -1,4 +1,7 @@
 # eduSOS
+
+This Android app is a team project.
+
 ## Intro
 EduSOS is a mobile platform that features a peer-to-peer knowledge-sharing network specifically targeted toward high school students. EduSOS aims to better connect knowledge seekers with knowledge sharers through a modernized application. 
 
